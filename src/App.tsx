@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/pearl-jubilee-hub-connect/">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
