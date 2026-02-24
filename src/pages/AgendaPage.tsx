@@ -6,7 +6,7 @@ const schedule = [
   {
     day: "Day 1 — Friday, July 24, 2026",
     events: [
-      { time: "09:00 AM", title: "Registration & Welcome", location: "TCE Campus — Main Gate", desc: "Pick up your welcome kit, badge, and reunion memorabilia." },
+      { time: "09:00 AM", title: "TCE 96 Registration & Welcome", location: "TCE Campus — Main Gate", desc: "Pick up your welcome kit, badge, and reunion memorabilia." },
       { time: "10:00 AM", title: "Inaugural Ceremony", location: "TCE Auditorium", desc: "Lamp lighting, welcome address, and keynote by a distinguished alumnus." },
       { time: "11:30 AM", title: "Campus Nostalgia Walk", location: "TCE Campus", desc: "Guided walk through departments, hostels, canteen, and favourite hangout spots." },
       { time: "01:00 PM", title: "Lunch", location: "TCE Dining Hall", desc: "Traditional Madurai lunch — just like the old days." },
