@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
+  base: '/pearl-jubilee-hub-connect/',
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
