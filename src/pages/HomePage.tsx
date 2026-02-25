@@ -101,8 +101,12 @@ export default function HomePage() {
       {/* Event Summary */}
       <section className="mx-auto max-w-4xl px-6 pb-20">
         <h2 className="text-2xl font-serif font-bold text-foreground mb-6 text-center">Event at a Glance</h2>
-        <div className="grid gap-4 md:grid-cols-2">
-          {[
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {[{
+              title: "Day 0 (Optional) — July 23",
+              items: ["Just Chilling With Friends!!"
+              ],
+            },
             {
               title: "Day 1 — July 24",
               items: [
@@ -119,6 +123,12 @@ export default function HomePage() {
                 "Late morning: Awards & remembrance",
                 "Afternoon: Wrap-up & farewell lunch",
                 "Depart with 30 more years of memories",
+              ],
+            },
+            {
+              title: "Extended Day — July 26",
+              items: [
+                "lol idk",
               ],
             },
           ].map((day) => (

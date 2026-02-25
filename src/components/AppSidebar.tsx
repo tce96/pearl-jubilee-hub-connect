@@ -1,5 +1,5 @@
 import { NavLink, useLocation } from "react-router-dom";
-import { Home, Calendar, IndianRupee, HelpCircle, Mail, Menu, X } from "lucide-react";
+import { Home, Camera, Calendar, IndianRupee, HelpCircle, Mail, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -8,6 +8,7 @@ const navItems = [
   { to: "/agenda", label: "Agenda", icon: Calendar },
   { to: "/tariffs", label: "Tariffs", icon: IndianRupee },
   { to: "/faq", label: "FAQ", icon: HelpCircle },
+  { to: "/resortpics", label: "Resort Pictures", icon: Camera },
   { to: "/contact", label: "Contact", icon: Mail },
 ];
 

@@ -10,6 +10,7 @@ import TariffsPage from "./pages/TariffsPage";
 import FaqPage from "./pages/FaqPage";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
+import ResortPicsPage from "./pages/ResortPicsPage"
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
             <Route path="/agenda" element={<AgendaPage />} />
             <Route path="/tariffs" element={<TariffsPage />} />
             <Route path="/faq" element={<FaqPage />} />
+            <Route path="/resortpics" element={<ResortPicsPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
