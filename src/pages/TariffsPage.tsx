@@ -8,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const FORM_URL = "https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK";
+const FORM_URL = "https://bit.ly/tce96_PJ_Participant_details";
 
 type TariffStatus = "Available" | "Tentative" | "Awaiting";
 

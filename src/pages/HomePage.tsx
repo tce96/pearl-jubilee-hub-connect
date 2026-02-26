@@ -52,7 +52,7 @@ export default function HomePage() {
             className="mt-8"
           >
             <a
-              href="https://forms.google.com"
+              href="https://bit.ly/tce96_PJ_Participant_details"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg gold-gradient px-8 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-transform hover:scale-105"
