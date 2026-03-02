@@ -106,9 +106,9 @@ const tariffRows: TariffRow[] = [
     venue: "GRT (B)",
     stay: "Jul 24 & 25",
     occupancy: "Double occupancy (sharing)",
-    amount: "Awaiting confirmation",
+    amount: "₹12,800",
     notes: "Rate not filled in the latest sheet; will be updated once confirmed",
-    status: "Awaiting",
+    status: "Available",
   },
 
   // Taj placeholder
@@ -163,11 +163,11 @@ const packageCards = [
   },
   {
     name: "GRT (B) – Jul 24 & 25",
-    price: "From ₹19,600",
+    price: "From ₹12,800",
     desc: "Optional extended stay (rates depend on confirmed options)",
     features: [
       "7B: Single occupancy – ₹19,600",
-      "8B: Double sharing – awaiting confirmation",
+      "8B: Double sharing – ₹12,800",
       "Jul 25 stay is optional (based on participation)",
       "Final allocation will be confirmed after responses",
     ],
@@ -195,7 +195,7 @@ export default function TariffsPage() {
     <div className="px-6 py-12 lg:py-16 max-w-5xl mx-auto">
       <SectionHeading
         title="Tariffs / Packages"
-        subtitle="Indicative packages — final allocation (early check-in, transport timings, and Jul 25 stay format) will be confirmed after participation count and venue coordination."
+        subtitle="Indicative packages — final allocation (early check-in, transport timings, and Jul 25 stay format) will be confirmed after participation count and venue coordination. All package amounts are comprehensive and inclusive of accommodation (where applicable), meals, venue and event arrangements, and other coordination expenses associated with the Pearl Jubilee celebration. The published tariff represents the final payable amount for the selected package."
       />
 
       {/* Package cards */}

@@ -103,12 +103,12 @@ export default function HomePage() {
         <h2 className="text-2xl font-serif font-bold text-foreground mb-6 text-center">Event at a Glance</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[{
-              title: "Day 0 (Optional) — July 23",
+              title: "Day 0 (Warm-up Optional) — July 23",
               items: ["Just Chilling With Friends!!"
               ],
             },
             {
-              title: "Day 1 — July 24",
+              title: "Day 1 — Main Event July 24",
               items: [
                 "Morning: Gather at TCE campus",
                 "Afternoon: Campus tour & nostalgia walk",
@@ -117,7 +117,7 @@ export default function HomePage() {
               ],
             },
             {
-              title: "Day 2 — July 25",
+              title: "Day 2 — Main Event July 25",
               items: [
                 "Morning: Breakfast & group activities",
                 "Late morning: Awards & remembrance",
@@ -126,9 +126,9 @@ export default function HomePage() {
               ],
             },
             {
-              title: "Extended Day — July 26",
+              title: "Optional Extended Day — July 26",
               items: [
-                "lol idk",
+                "Just chilling and relaxing with friends.",
               ],
             },
           ].map((day) => (
