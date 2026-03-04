@@ -10,7 +10,7 @@ const agendaItems = [
     ],
   },
   {
-    day: "Friday – July 24, 2026",
+    day: "Main Event: Friday – July 24, 2026",
     schedule: [
       { time: "09:30 AM – 10:30 AM", activity: "Reporting at TCE Campus & T-shirt Distribution" },
       { time: "11:00 AM – 12:30 PM", activity: "High Tea & Informal Meet-up at College" },
@@ -21,12 +21,22 @@ const agendaItems = [
     ],
   },
   {
-    day: "Saturday – July 25, 2026",
+    day: "Main Event: Saturday – July 25, 2026",
     schedule: [
       { time: "08:00 AM – 09:30 AM", activity: "Breakfast at Resort" },
       { time: "10:00 AM – 12:00 PM", activity: "Informal Catch-up / Group Activities / Photo Sessions" },
-      { time: "12:30 PM", activity: "Check-out (for one-night stay participants)" },
+      { time: "12:30 PM", activity: "Lunch at Resort" },
+      { time: "01:30 PM", activity: "Check-out (for one-night stay participants)" },
       { time: "Afternoon / Night", activity: "Optional Extended Stay (subject to registration & participation)" },
+    ],
+  },
+  {
+    day: "Extended Stay(Optional): Sunday – July 26, 2026",
+    schedule: [
+      { time: "08:00 AM – 09:30 AM", activity: "Breakfast at Resort" },
+      { time: "09:30 AM – 12:30 PM", activity: "just chilling with friends" },
+      { time: "12:30 PM", activity: "Lunch at Resort" },
+      { time: "01:30 PM", activity: "Check-out (for two-night extended stay participants)" },
     ],
   },
 ];
